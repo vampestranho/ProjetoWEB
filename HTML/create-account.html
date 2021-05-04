@@ -10,7 +10,8 @@
 <body>
     <div class="container">
         <form id="Form1">
-            <h3>CREATE ACCOUNTE</h3>
+            <h3>CRIE SUA CONTA</h3>
+            <input type="text" placeholder="Usuario" required>
             <input type="text" placeholder="Email" required>
             <input type="password" placeholder="Password" required>
             <input type="password" placeholder="Confirm Password" required>
@@ -21,10 +22,10 @@
         </form>
 
         <form id="Form2">
-            <h3>SOCIAL LINK</h3>
-            <input type="text" placeholder="Medium" >
-            <input type="text" placeholder="Github" >
-            <input type="text" placeholder="Linkedin" >
+            <h3>INFORMAÇÕES PESSOAIS</h3>
+            <input type="text" placeholder="Nome" required>
+            <input type="text" placeholder="Sobrenome" required>
+            <input type="text" placeholder="Celular" required>
 
             <div class="btn-box">
                 <button type="button" id="Back1">Back</button>
@@ -33,10 +34,18 @@
         </form>
 
         <form id="Form3">
-            <h3>PESSOAL INFO</h3>
-            <input type="text" placeholder="Firt Name" required>
-            <input type="text" placeholder="Last Name" required>
-            <input type="text" placeholder="Mobile No." required>
+            <h3>CASOS DE USO</h3>
+            <h4>deseja receber notificações</h4>
+            <div class="caixa" id="">   
+                Sim<input type="radio" name="novidades" value="sim" checked>
+            </div>
+            <div class="caixa" id="">
+                Não<input type="radio" name="novidades" value="nao">
+            </div>
+            <h4>Termos de Uso</h4>
+            <div class="caixa">
+            <label>Ao clicar em submit voce concordar com os <a href="https://policies.google.com/terms?hl=pt-BR">Termos de Uso</a> do nosso site</label>
+            </div>
 
             <div class="btn-box">
                 <button type="button" id="Back2">Back</button>
@@ -88,3 +97,5 @@
     </script>
 </body>
 </html>
+
+   
