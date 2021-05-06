@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<link rel="stylesheet" href="Css/endereços.css">
+    <title>Meus Endereços</title>
 </head>
 <body>
     <!--Importando Script Jquery-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 	<!--Formulário-->
+<div class="container">
     <form autocomplete="on">
         <h3>Nome e contato</h3>
  
@@ -69,7 +71,7 @@
         <input type="text" name="CPF" id="CPF" placeholder="CPF">
         <input type="text" name="RG" id="RG" placeholder="RG">
     </form>
-	
+</div>
 	<script type="text/javascript">
 		$("#cep").focusout(function(){
 			//Início do Comando AJAX
