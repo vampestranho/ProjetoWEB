@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;	
+}
+
+.ignore{
+	width:auto;
+	height:auto;
+	display: flex;
+	justify-content:center;
+	position:relative;
+	padding:27px 96px;
+	margin: 0 auto !important;
+	max-width:1440px;
+}
+
+.box-rosa{
+	width:100%;
+	padding:10px;	
+	border-radius:7px;
+	
+	background-color:pink;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	position: relative;
+}
+
+.box-rosa > h2{
+	background-color:pink;
+	z-index:3;
+	padding:0 15px;
+}
+
+.card-line{
+	width:80%;
+	height:3px;
+	background-color:black;
+	position:absolute;
+	z-index:1;
+}
