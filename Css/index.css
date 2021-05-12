@@ -20,7 +20,7 @@
 	padding:10px;	
 	border-radius:7px;
 	
-	background-color:pink;
+	
 	display: flex;
 	flex-direction:column;
 	justify-content:center;
@@ -29,7 +29,7 @@
 }
 
 .box-rosa > h2{
-	background-color:pink;
+	background-color:white;
 	z-index:3;
 	padding:0 15px;
 }
