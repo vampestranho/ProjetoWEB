@@ -24,20 +24,12 @@ main{
     width: 100%;
     height: 100vh;
 }
-<<<<<<< Updated upstream
-.box{
-=======
     .box{
->>>>>>> Stashed changes
         width: 100%;
         height: 200px;
         margin-top: 50px;
     }
-<<<<<<< Updated upstream
-.box_limit{
-=======
     .box_limit{
->>>>>>> Stashed changes
         width: 50%;
         height: 100px;
         display: flex;
@@ -46,26 +38,15 @@ main{
         margin-left: auto;
         margin-right: auto;
     }
-<<<<<<< Updated upstream
-.title{
-=======
     .title{
->>>>>>> Stashed changes
         width: 30%;
         height: 50px;
         text-align: center;
     }
-<<<<<<< Updated upstream
-.title h1{
-            margin: 0px;
-        }
-.img_traco{
-=======
         .title h1{
             margin: 0px;
         }
     .img_traco{
->>>>>>> Stashed changes
         display: inline-block;
         width: 200px;
         height: 30px;
@@ -79,39 +60,23 @@ article{
     justify-content: space-around;
 
 }
-<<<<<<< Updated upstream
-.painel{
-        width: 400px;
-        height: 700px;
-    }
-.img_painel{
-=======
     .painel{
         width: 400px;
         height: 700px;
     }
     .img_painel{
->>>>>>> Stashed changes
         width: 100%;
         height: 400px;
         background-image: url("../img/pizza.png");
         background-position: center;
     }
-<<<<<<< Updated upstream
-.text_painel{
-=======
     .text_painel{
->>>>>>> Stashed changes
         width: 100%;
         height: 50px;
         margin-top: 30px;
         text-align: center;
     }
-<<<<<<< Updated upstream
-.preco_painel{
-=======
     .preco_painel{
->>>>>>> Stashed changes
         width: 50%;
         height: 50px;
         margin-left: auto;
@@ -119,19 +84,11 @@ article{
         margin-top: 30px;
         text-align: center;
     }
-<<<<<<< Updated upstream
-.preco_painel strong{
-        font-size: 20px;
-    }
-
-.button_painel{
-=======
     .preco_painel strong{
         font-size: 20px;
     }
 
     .button_painel{
->>>>>>> Stashed changes
         width: 100%;
         height: 100px;
         margin-top: 30px;
@@ -143,11 +100,7 @@ footer{
     background-color: black;
     color: white;
 }
-<<<<<<< Updated upstream
-.copyright{
-=======
     .copyright{
->>>>>>> Stashed changes
         width: 30%;
         height: 70%;
         margin-left: auto;
@@ -155,11 +108,7 @@ footer{
         padding: 10px;
         
     }
-<<<<<<< Updated upstream
-.copyright p{
-=======
     .copyright p{
->>>>>>> Stashed changes
         margin: 0px;
         text-align: center;
     }
