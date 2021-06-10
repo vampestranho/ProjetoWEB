@@ -10,31 +10,31 @@
 </head>
 <body>
     <div class="container">
-        <form id="Form1">
+        <form id="Form1" method="POST" action="filter.php">
             <h3>CRIE SUA CONTA</h3>
-            <input type="text" placeholder="Usuario" required>
-            <input type="text" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <input type="password" placeholder="Confirm Password" required>
+            <input type="text" name="usuario" placeholder="Usuario" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <input type="password" name="senha" placeholder="Password" required>
+            <input type="password" name="r_senha" placeholder="Confirm Password" required>
 
             <div class="btn-box">
-                <button type="button" id="Next1">Next</button>
+                <button type="submit" id="Next1">Next</button>
             </div>
         </form>
 
-        <form id="Form2">
+        <form id="Form2" method="POST" action="filter.php">
             <h3>INFORMAÇÕES PESSOAIS</h3>
-            <input type="text" placeholder="Nome" required>
-            <input type="text" placeholder="Sobrenome" required>
-            <input type="text" placeholder="Celular" required>
+            <input type="text" name="nome" placeholder="Nome" required>
+            <input type="text" name="sobrenome" placeholder="Sobrenome" required>
+            <input type="text" name="celular" placeholder="Celular" required>
 
-            <div class="btn-box">
+            <!--<div class="btn-box">
                 <button type="button" id="Back1">Back</button>
-                <button type="button" id="Next2">Next</button>
-            </div>
+                <button type="submit" id="Next2">Next</button>
+            </div>-->
         </form>
 
-        <form id="Form3">
+        <form id="Form3" method="POST" action="filter.php">
             <h3>CASOS DE USO</h3>
             <h4>deseja receber notificações</h4>
             <div class="caixa" id="">   
@@ -50,7 +50,7 @@
 
             <div class="btn-box">
                 <button type="button" id="Back2">Back</button>
-                <button type="button" id="Submit">Submit</button>
+                <button type="submit" id="Submit">Submit</button>
             </div>
         </form>
 

@@ -1,0 +1,270 @@
+@media (max-width: 1617px){
+    main{
+        height: 200vh;
+    }
+    footer{
+        height: 100px;
+    }
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+header.menu{
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+}
+    header h1{
+        margin: 0px;
+        text-align: center;
+    }
+main{
+    width: 100%;
+    height: 100vh;
+}
+    .box{
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+    }
+    .box_limit{
+        width: 50%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title{
+        width: 30%;
+        height: 50px;
+        text-align: center;
+    }
+        .title h1{
+            margin: 0px;
+        }
+    .img_traco{
+        display: inline-block;
+        width: 200px;
+        height: 30px;
+        background-color: black;
+        border:1px solid black;
+        border-radius: 20px;
+    }
+article{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+    .painel{
+        width: 400px;
+        height: 700px;
+    }
+    .img_painel{
+        width: 100%;
+        height: 400px;
+        background-image: url("../img/pizza.png");
+        background-position: center;
+    }
+    .text_painel{
+        width: 100%;
+        height: 50px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .preco_painel{
+        width: 50%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        text-align: center;
+    }
+    .preco_painel strong{
+        font-size: 20px;
+    }
+
+    .button_painel{
+        width: 100%;
+        height: 100px;
+        margin-top: 30px;
+        text-align: center;
+    }
+.carrinho{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+}
+    .seucarrinho{
+        width: 90%;
+        height: 100px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+
+    }
+        .seucarrinho h1{
+            text-align: left;
+            margin: 10px;
+            margin-top: 25px;
+        }
+    .seuitem{
+        width: 90%;
+        height: 70%;
+        background-color: white;
+    }
+    .si_title{
+        margin: 10px;
+    }
+    .si_display{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .si_itens{
+        width: 400px;
+        height: 300px;
+        border-bottom:2px solid black;
+        border-top:2px solid black;
+        padding: 10px;
+    }
+    .si_itens h3{
+        text-align: center;
+        margin-top: 50px;
+    }
+    .si_i_item{
+        width: 100px;
+        height: 100px;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .btnvoltar{
+        width: 90%;
+        height: 50px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+    .btnvoltar a{
+        text-align: center;
+        text-decoration: none;
+        padding: 5px 10px;
+        color: black;
+    }
+    .btnvoltar a:hover{
+        background: #CCC;
+        color: #000; 
+        border-color: #000;
+    }
+    .f_endereco{
+        width: 100%;
+        height: 370px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        background-color: rgb(238, 238, 238);
+    }
+    .f_formulario{
+        width: 90%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: white;
+    }
+        .f_formulario form{
+            margin-top: 50px;
+        }
+        .f_formulario label{
+            display: inline-block;
+            width: 150px;
+            text-align: right;;
+        }
+        .f_formulario input{
+            margin-top: 5px;
+        }
+    .form_left{
+        width: 40%;
+        float: left;
+        margin-left: 10px;
+        margin-top: 20px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    .form_right{
+        width: 40%;
+        float: right;
+        margin-right: 10px;
+        margin-top: 20px;
+        padding: 1em;
+        border: 1px solid #CCC;
+        border-radius: 1em;
+    }
+    footer{
+        width: 100%;
+        height: 380px;
+        background-color: white;
+    }
+        .box{
+            width: 90%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+        .info{
+            width: 100%;
+            height: 325px;
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+        }
+        .i_left{
+            width: 30%;
+            height: 50%;
+            margin-top: 80px;
+            border-top:2px solid black;
+            text-align: center;
+        }
+            .i_left h2{
+                margin-top: 20px;
+            }
+            .i_left a{
+                text-align: center;
+                text-decoration: none;
+                color: black;
+            }
+        .i_right{
+            width: 30%;
+            height: 50%;
+            margin-top: 80px;
+            border-top:2px solid black;
+            text-align: center;
+        }
+        .i_right h2{
+            margin-top: 20px;
+        }
+        .i_right img:hover{
+            background-color: rgb(238, 238, 238);
+        }
+        .copyright{
+            width: 80%;
+            height: 50px;
+            margin-right: auto;
+            margin-left: auto;
+            border-top:2px solid black;
+        }
+        .copyright p{
+            text-align: center;
+            margin-top: 5px;
+        }
